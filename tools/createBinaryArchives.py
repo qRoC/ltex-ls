@@ -200,8 +200,8 @@ def main() -> None:
   createBinaryArchive("mac", "x64")
   createBinaryArchive("windows", "x64")
 
-  createBinaryArchive("linux", "arm64")
-  createBinaryArchive("mac", "arm64")
+  createBinaryArchive("linux", "aarch64")
+  createBinaryArchive("mac", "aarch64")
 
 if __name__ == "__main__":
   main()
