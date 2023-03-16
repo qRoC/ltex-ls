@@ -120,6 +120,7 @@ def downloadJava(tmpDirPath: pathlib.Path, ltexLsDirPath: pathlib.Path,
   # Registering an InstanceCreator with Gson for this type may fix this problem.").
   javaModules = [
         "java.se",
+        "java.base",
       ]
 
   print("Creating Java distribution...")
