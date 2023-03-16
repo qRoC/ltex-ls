@@ -17,7 +17,8 @@ import urllib.parse
 import urllib.request
 import zipfile
 
-javaVersion = "11.0.18+10"
+# https://github.com/adoptium/adoptium-support/issues/557
+javaVersion = "11.0.15+10"
 
 
 
