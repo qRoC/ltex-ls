@@ -121,6 +121,7 @@ def downloadJava(tmpDirPath: pathlib.Path, ltexLsDirPath: pathlib.Path,
   javaModules = [
         "java.se",
         "java.base",
+        "jdk.unsupported",
       ]
 
   print("Creating Java distribution...")
